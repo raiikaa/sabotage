@@ -1,0 +1,87 @@
+body {
+    color:black;
+    background:black;
+    margin: 4px
+     } 
+     body{
+        font-family: "Itim", cursive;    }
+    body{
+        margin-bottom:100px;
+    }
+    
+    header {
+    border-bottom: solid 7px rgb(255, 255, 255);
+    padding: 18px;
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    }
+    
+    .chamada{
+    background: rgb(255, 0, 0);
+    padding-bottom:80px;
+    padding-top:80px;
+    display: flex;
+    justify-content:center;
+    border-bottom: solid 7px white;
+    }
+    .chamada-texto{
+    margin-right: 5%;
+    }
+    
+    h1{
+        font-size: 43px;
+    }
+    
+    p{
+        font-size: 40px;
+    }
+    
+    
+    .categoria-videos{ 
+        display: flex;
+        overflow-x: auto;
+        gap: 50px;
+    }
+    
+    .categoria{
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-top: 50px;
+    }
+    
+    .categoria-videos img{
+    opacity: 0.5;
+    height:200px;
+    }
+    .categoria-videos img:hover {
+    opacity:1.0;
+    border: 6px solid rgb(255, 0, 0);
+    }
+    .categoria h2{
+        color: white;
+        font-size: 40;
+    }
+    
+    .aprofundar{
+        display: flex;
+        overflow-x:auto;
+        gap: 15px;
+    }
+    .aprofundando{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top:50px;
+    }
+    .aprofundar img{
+        opacity: 0.5;
+        height: 200px;
+    }
+    .aprofundar img:hover{
+        opacity:1.0;
+        border: 6px solid rgb(255, 0, 0);
+    }
+    .aprofundando h3{
+        color: white;
+        font-size: 40;
+    }
